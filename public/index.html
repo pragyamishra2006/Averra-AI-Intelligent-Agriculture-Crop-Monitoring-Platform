@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>TerraMind AI</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;900&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <style>
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      :root {
+        --bg-deep: #030a0f;
+        --bg-panel: #050f18;
+        --bg-card: #071520;
+        --bg-glass: rgba(7, 21, 32, 0.85);
+        --border: rgba(0, 200, 150, 0.15);
+        --border-bright: rgba(0, 200, 150, 0.4);
+        --accent-green: #00c896;
+        --accent-green-dim: rgba(0, 200, 150, 0.12);
+        --accent-orange: #ff6a00;
+        --accent-amber: #f5a623;
+        --accent-blue: #1a7eff;
+        --text-primary: #e8f4f0;
+        --text-secondary: #7aa89a;
+        --text-muted: #3d6058;
+        --stress-none: #22c55e;
+        --stress-low: #84cc16;
+        --stress-moderate: #eab308;
+        --stress-high: #f97316;
+        --stress-severe: #ef4444;
+      }
+      body {
+        background: var(--bg-deep);
+        color: var(--text-primary);
+        font-family: 'Inter', sans-serif;
+        overflow: hidden;
+        height: 100vh;
+      }
+      #root { height: 100vh; }
+      ::-webkit-scrollbar { width: 4px; height: 4px; }
+      ::-webkit-scrollbar-track { background: var(--bg-deep); }
+      ::-webkit-scrollbar-thumb { background: var(--accent-green); border-radius: 2px; }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
