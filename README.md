@@ -1,4 +1,4 @@
-# 🌱 AgriSphere AI — Intelligent Farming Assistant
+# 🌱 Averra — Intelligent Farming Assistant
 
 > **An AI-powered smart agriculture platform that helps farmers detect crop diseases, monitor weather conditions, and receive data-driven farming recommendations for improved productivity and sustainable agriculture.**
 
@@ -12,7 +12,7 @@
 
 ## 📖 Overview
 
-Agriculture faces challenges such as delayed disease identification, unpredictable weather, and limited access to expert advice. **AgriSphere AI** addresses these issues by combining Artificial Intelligence with modern web technologies to provide farmers with intelligent, accessible, and real-time decision support.
+Agriculture faces challenges such as delayed disease identification, unpredictable weather, and limited access to expert advice. **Averra** addresses these issues by combining Artificial Intelligence with modern web technologies to provide farmers with intelligent, accessible, and real-time decision support.
 
 The platform enables users to upload crop images for disease analysis, monitor weather conditions, and receive personalized farming recommendations through a responsive and user-friendly interface.
 
@@ -131,7 +131,7 @@ The platform enables users to upload crop images for disease analysis, monitor w
 # 📂 Folder Structure
 
 ```text
-AgriSphere-AI
+Averra
 │
 ├── client
 │   ├── public
@@ -168,11 +168,11 @@ AgriSphere-AI
 ## Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/agrisphere-ai.git
+git clone https://github.com/yourusername/averra.git
 ```
 
 ```bash
-cd agrisphere-ai
+cd averra
 ```
 
 ---
@@ -328,7 +328,7 @@ Passionate about Full-Stack Development, Artificial Intelligence, and Building S
 
 # ⭐ Why This Project?
 
-AgriSphere AI demonstrates:
+Averra demonstrates:
 
 * Full-Stack Web Development
 * REST API Development
@@ -343,6 +343,6 @@ AgriSphere AI demonstrates:
 
 This project reflects industry-standard software engineering practices and showcases the ability to design, build, and deploy an AI-enabled web application suitable for real-world agricultural use.
 
----
-
-## ⭐ If you found this project useful, consider giving it a star on GitHub!
+Author:
+Pragya Mishra
+BTech - CSE

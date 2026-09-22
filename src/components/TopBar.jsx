@@ -28,17 +28,17 @@ export default function TopBar({ activeTab, setActiveTab }) {
     }}>
       {/* Logo */}
       <div style={{ display: "flex", alignItems: "center", gap: 8, minWidth: 200 }}>
-        <img src="/logo.png" alt="TerraMind AI logo" style={{
+        <img src="/logo.png" alt="Averra AI logo" style={{
           width: 48, height: 48, borderRadius: "50%",
           objectFit: "cover", flexShrink: 0,
           border: "2px solid #ff6a00"
         }} />
         <div>
           <div style={{ fontFamily: "Orbitron", fontSize: 12, fontWeight: 700, color: "#fff", lineHeight: 1.1 }}>
-            TERRA<span style={{ color: "#ff6a00" }}>MIND</span>
+            AVE<span style={{ color: "#ff6a00" }}>RRA</span>
           </div>
           <div style={{ fontFamily: "Orbitron", fontSize: 8, color: "#00c896", letterSpacing: "0.15em" }}>
-            TERRAMIND AI
+            AVERRA AI
           </div>
         </div>
       </div>

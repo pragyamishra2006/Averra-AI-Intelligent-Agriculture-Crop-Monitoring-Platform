@@ -88,7 +88,7 @@ export const stageColors = {
 export const aiMessages = [
   {
     role: "assistant",
-    content: "Welcome to AgriSphere AI. I'm your agricultural intelligence copilot. I have analyzed all 12 fields in **FARM_0127**. Here's a quick summary:\n\n🌾 **Dominant crop:** Rice (34% coverage)\n💧 **Critical concern:** 3 fields showing Severe-to-High moisture stress\n🚜 **Immediate action:** Irrigation recommended for Fields 3, 1, and 6 within 24–48 hours\n📈 **NDVI trend:** Declining — 0.71 → 0.54 over 4 weeks\n\nType 'Analyze field 3' or ask me anything about your crops."
+    content: "Welcome to Averra AI. I'm your agricultural intelligence copilot. I have analyzed all 12 fields in **FARM_0127**. Here's a quick summary:\n\n🌾 **Dominant crop:** Rice (34% coverage)\n💧 **Critical concern:** 3 fields showing Severe-to-High moisture stress\n🚜 **Immediate action:** Irrigation recommended for Fields 3, 1, and 6 within 24–48 hours\n📈 **NDVI trend:** Declining — 0.71 → 0.54 over 4 weeks\n\nType 'Analyze field 3' or ask me anything about your crops."
   }
 ];
 

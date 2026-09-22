@@ -1,4 +1,4 @@
-# 🚀 Stellar Spark — AgriSphere AI
+# 🚀 Stellar Spark — Averra
 
 An AI-driven satellite-powered precision agriculture platform built for the ISRO Hackathon.
 
@@ -59,7 +59,7 @@ If you don't want to use a live API key for your demo, the Copilot still works f
 ## 📁 Project Structure
 
 ```
-agrisphere/
+averra/
 ├── public/
 │   └── index.html          # HTML shell, fonts, global CSS variables
 ├── src/

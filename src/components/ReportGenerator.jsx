@@ -50,7 +50,7 @@ export default function ReportGenerator() {
         heightLeft -= pageHeight;
       }
 
-      pdf.save(`${farmData.id}_AgriSphere_Report.pdf`);
+      pdf.save(`${farmData.id}_Averra_Report.pdf`);
     } catch (err) {
       alert("Something went wrong generating the PDF. Check the console for details.");
       console.error(err);
@@ -133,7 +133,7 @@ export default function ReportGenerator() {
           fontFamily: "Inter, sans-serif",
         }}>
           <div style={{ borderBottom: "3px solid #00c896", paddingBottom: 16, marginBottom: 20 }}>
-            <div style={{ fontSize: 10, color: "#666", letterSpacing: "0.1em" }}>STELLAR SPARK · AGRISPHERE AI</div>
+            <div style={{ fontSize: 10, color: "#666", letterSpacing: "0.1em" }}>STELLAR SPARK · AVERRA AI</div>
             <h1 style={{ fontSize: 24, margin: "6px 0 4px", color: "#0a3d2e" }}>Precision Agriculture Analysis Report</h1>
             <div style={{ fontSize: 11, color: "#888" }}>Farm: {farmData.id} · {farmData.location} · Generated {farmData.date}</div>
           </div>

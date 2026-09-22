@@ -6,7 +6,7 @@ export default function AICopilot() {
   const [messages, setMessages] = useState([
     {
       role: "assistant",
-      content: "🛰️ **AgriSphere AI Online.** I've analyzed FARM_0127.\n\n🚨 **Alert:** 3 fields need immediate irrigation (Fields 3, 1, 6).\n\n💧 Water balance: **-12mm deficit** \n🌾 NDVI declining: 0.71 → 0.54 (4 weeks)\n\nAsk me: *'Analyze field 3'* or *'Should I irrigate today?'*"
+      content: "🛰️ **Averra AI Online.** I've analyzed FARM_0127.\n\n🚨 **Alert:** 3 fields need immediate irrigation (Fields 3, 1, 6).\n\n💧 Water balance: **-12mm deficit** \n🌾 NDVI declining: 0.71 → 0.54 (4 weeks)\n\nAsk me: *'Analyze field 3'* or *'Should I irrigate today?'*"
     }
   ]);
   const [input, setInput] = useState("");
